@@ -33,6 +33,6 @@ of the tests. Follow this protocol:
 * remove the `[Ignore]` annotation from the next test __(this simulates writing the next test)__
 
 Repeat the above until no tests are skipped, and you’ve written code to pass each one.
-Work on this task for 30 minutes. The vast majority of folks __do not__ finish in 30 minutes, but it’s useful,
+Work on this task for 30 minutes. The __vast majority of folks do not finish in 30 minutes__, but it’s useful,
 for later comparison purposes, to record how far you got. Even if you can’t force yourself to stop at that
 point, take a break at 30 minutes and save your code.
