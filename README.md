@@ -13,7 +13,7 @@ $ dotnet watch test
 Clone the repository as follows:
 
 ```sh
-$ git clone https://github.com/michaelpokorny/99bottles.git
+$ git clone https://github.com/3nigm4/99BottlesCsharp.git
 ```
 
 The example code snippets in the book are written in Ruby. We will not translate those to C#, because we won't need them and they should be easy to read and understand. If you’re completely unfamiliar with the language here is a gentle tutorial [(Ruby in Twenty Minutes)](https://www.ruby-lang.org/en/documentation/quickstart/).
