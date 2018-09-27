@@ -25,7 +25,9 @@ To run the test suite, invoke the following command in the directory of your pro
 $ dotnet watch test
 ```
 
-It is part of the excersise to create the necessary file to make the code compile intially. Hint: You can use `ctrl + .` and choose `Generate Type -> ... in new File`.
+It is part of the excersise to create the necessary file to make the code compile initially.
+
+Hint: You can use `ctrl + .` and choose `Generate Type -> ... in new File`.
 
 The test suite contains one failing test, and many skipped tests. Your goal is to write code that passes all
 of the tests. Follow this protocol:
