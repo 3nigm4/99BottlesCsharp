@@ -3,7 +3,7 @@ The "99 Bottles of Beer" kata with working unit tests, but without solution
 
 ## Project Setup
 
-In general you can quickly setup a csharp unit test project by doing this:
+In general you can quickly setup a csharp unit test project by issuing the commands below, however you don't need to do this if you clone this repository. If you get errors make sure .NET Core is installed.
 ```sh
 $ mkdir funkyName
 $ cd funkyName
