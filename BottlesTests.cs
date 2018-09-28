@@ -12,12 +12,10 @@ namespace _99BottlesCsharp
             Assert.AreEqual(
 @"99 bottles of beer on the wall, 99 bottles of beer.
 Take one down and pass it around, 98 bottles of beer on the wall.
-", Bottles.Verse(99)
-                           );
+", Bottles.Verse(99));
         }
 
         [TestMethod]
-        [Ignore]
         public void TestAnotherVerse()
         {
             Assert.AreEqual(
@@ -27,7 +25,6 @@ Take one down and pass it around, 88 bottles of beer on the wall.
         }
 
         [TestMethod]
-        [Ignore]
         public void TestVerse2()
         {
             Assert.AreEqual(
@@ -37,7 +34,6 @@ Take one down and pass it around, 1 bottle of beer on the wall.
         }
 
         [TestMethod]
-        [Ignore]
         public void TestVerse1()
         {
             Assert.AreEqual(
@@ -47,9 +43,9 @@ Take it down and pass it around, no more bottles of beer on the wall.
         }
 
         [TestMethod]
-        [Ignore]
         public void TestVerse0()
         {
+            // was here after 30min
             Assert.AreEqual(
 @"No more bottles of beer on the wall, no more bottles of beer.
 Go to the store and buy some more, 99 bottles of beer on the wall.
@@ -57,7 +53,6 @@ Go to the store and buy some more, 99 bottles of beer on the wall.
         }
 
         [TestMethod]
-        [Ignore]
         public void TestACoupleVerses()
         {
             Assert.AreEqual(
@@ -70,7 +65,6 @@ Take one down and pass it around, 97 bottles of beer on the wall.
         }
 
         [TestMethod]
-        [Ignore]
         public void TestAFewVerses()
         {
             Assert.AreEqual(
@@ -86,9 +80,9 @@ Go to the store and buy some more, 99 bottles of beer on the wall.
         }
 
         [TestMethod]
-        [Ignore]
         public void TestTheWholeSong()
         {
+            // finished after 1h
             Assert.AreEqual(
 @"99 bottles of beer on the wall, 99 bottles of beer.
 Take one down and pass it around, 98 bottles of beer on the wall.
