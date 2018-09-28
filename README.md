@@ -1,7 +1,7 @@
 # 99BottlesCsharp [unsolved]
-The "99 Bottles of Beer" kata with working unit tests, but without solution. This is adapted from the code found int:
+The "99 Bottles of Beer" kata with working unit tests, but without solution. This is adapted from the code found in:
 
-[99 Bottles of OOP](https://www.sandimetz.com/99bottles/), please support the self-publishing authors by buying a copy of this wonderful book.
+[99 Bottles of OOP](https://www.sandimetz.com/99bottles/) by Sandi Metz and Katrina Owen, please support the self-publishing authors by buying a copy of this wonderful book.
 
 ## Project Setup
 
