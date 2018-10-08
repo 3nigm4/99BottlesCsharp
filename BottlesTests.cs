@@ -9,13 +9,16 @@ namespace _99BottlesCsharp
         [TestMethod]
         public void TestTheFirstVerse()
         {
+            // Important, if you have not cloned, but downloadet this code as a zip file,
+            // it may be that the line breaks are LF instead of CRLF, check in the bottom
+            // right of vs code (next to "UTF-8" ) to avoid frustration.
             Assert.AreEqual(
 @"99 bottles of beer on the wall, 99 bottles of beer.
 Take one down and pass it around, 98 bottles of beer on the wall.
 ", Bottles.Verse(99));
         }
 
-        [TestMethod]
+        [TestMethod, Ignore]
         public void TestAnotherVerse()
         {
             Assert.AreEqual(
@@ -24,7 +27,7 @@ Take one down and pass it around, 88 bottles of beer on the wall.
 ", Bottles.Verse(89));
         }
 
-        [TestMethod]
+        [TestMethod, Ignore]
         public void TestVerse2()
         {
             Assert.AreEqual(
@@ -33,7 +36,7 @@ Take one down and pass it around, 1 bottle of beer on the wall.
 ", Bottles.Verse(2));
         }
 
-        [TestMethod]
+        [TestMethod, Ignore]
         public void TestVerse1()
         {
             Assert.AreEqual(
@@ -42,7 +45,7 @@ Take it down and pass it around, no more bottles of beer on the wall.
 ", Bottles.Verse(1));
         }
 
-        [TestMethod]
+        [TestMethod, Ignore]
         public void TestVerse0()
         {
             // was here after 30min
@@ -52,7 +55,7 @@ Go to the store and buy some more, 99 bottles of beer on the wall.
 ", Bottles.Verse(0));
         }
 
-        [TestMethod]
+        [TestMethod, Ignore]
         public void TestACoupleVerses()
         {
             Assert.AreEqual(
@@ -64,7 +67,7 @@ Take one down and pass it around, 97 bottles of beer on the wall.
 ", Bottles.Verses(99, 98));
         }
 
-        [TestMethod]
+        [TestMethod, Ignore]
         public void TestAFewVerses()
         {
             Assert.AreEqual(
@@ -79,7 +82,7 @@ Go to the store and buy some more, 99 bottles of beer on the wall.
 ", Bottles.Verses(2, 0));
         }
 
-        [TestMethod]
+        [TestMethod, Ignore]
         public void TestTheWholeSong()
         {
             // finished after 1h
